@@ -1,0 +1,11 @@
+# Site settings
+title: Drafts
+email: me@drafts.works
+description: Iterations on code and words.
+# baseurl: "/mySite" # the subpath of your site, e.g. /blog/
+url: "http://drafts.works" # the base hostname & protocol for your site
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
