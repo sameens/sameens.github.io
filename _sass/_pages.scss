@@ -1,0 +1,43 @@
+//Cooking diary
+.photo-list{
+  margin:0;
+  padding:0;
+  list-style:none;
+  li{
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom:1rem;
+    margin-right:0.8rem;
+
+    a{
+      display:block;
+      border:solid 1px #ccc;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size:cover;
+      width:18rem;
+      height:18rem;
+      overflow:hidden;
+
+      .thumb-description{
+        height:100%;
+        text-align:center;
+        padding: 5rem;
+        background-color:rgba(0,0,0,0.4);
+        opacity:0;
+        -webkit-transition:opacity .25s ease;
+        -moz-transition:opacity .25s ease;
+        &:hover{
+          opacity:1;
+        }
+        span{
+          color:white;
+          position:relative;
+          top:3rem;
+          margin: 0 auto;
+          font-size:1.2rem;
+        }
+      }
+    }
+  }
+}
