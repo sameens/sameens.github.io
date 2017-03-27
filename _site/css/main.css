@@ -162,7 +162,7 @@ blockquote p {
   font-style: italic; }
 
 h1, .h1 {
-  font-size: 3rem; }
+  font-size: 4rem; }
 
 h2, .h2 {
   font-size: 1.5rem; }
@@ -1524,37 +1524,16 @@ input[type=range] {
   .highlight .il {
     color: #099; }
 
-.photo-list {
+.homepage-list {
   margin: 0;
   padding: 0;
   list-style: none; }
-  .photo-list li {
+  .homepage-list li {
     display: inline-block;
-    vertical-align: top;
-    margin-bottom: 1rem;
-    margin-right: 0.8rem; }
-    .photo-list li a {
-      display: block;
-      border: solid 1px #ccc;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 18rem;
-      height: 18rem;
-      overflow: hidden; }
-      .photo-list li a .thumb-description {
-        height: 100%;
-        text-align: center;
-        padding: 5rem;
-        background-color: rgba(0, 0, 0, 0.4);
-        opacity: 0;
-        -webkit-transition: opacity .25s ease;
-        -moz-transition: opacity .25s ease; }
-        .photo-list li a .thumb-description:hover {
-          opacity: 1; }
-        .photo-list li a .thumb-description span {
-          color: white;
-          position: relative;
-          top: 3rem;
-          margin: 0 auto;
-          font-size: 1.2rem; }
+    margin-right: 0.8rem;
+    width: 10rem; }
+    .homepage-list li a {
+      color: #888888; }
+
+.mtxl {
+  margin-top: 3rem; }
