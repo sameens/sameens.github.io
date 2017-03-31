@@ -4,15 +4,8 @@
 .site-header{
     padding-top:1.5rem;
     padding-bottom:1.5rem;
-    background-color: #CDDC39;
+    border-bottom: solid 1px #CDDC39;
     overflow:hidden;
-    .logo{
-      width:80px;
-      height:80px;
-      float:left;
-      svg{
-        fill:#fff;
-      }
     }
     .global-nav{
       list-style: none;
@@ -33,7 +26,6 @@
         }
       }
     }
-  }
 
 /**
  * Site footer
@@ -50,7 +42,7 @@
  .post-header{
      padding-top:1.5rem;
      padding-bottom:1.5rem;
-     background-color: #CDDC39;
+     border-bottom: solid 1px #CDDC39;
  }
 
 /**

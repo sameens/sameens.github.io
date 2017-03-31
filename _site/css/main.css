@@ -1342,29 +1342,24 @@ input[type=range] {
 .site-header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: #CDDC39;
+  border-bottom: solid 1px #CDDC39;
   overflow: hidden; }
-  .site-header .logo {
-    width: 80px;
-    height: 80px;
-    float: left; }
-    .site-header .logo svg {
-      fill: #fff; }
-  .site-header .global-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    float: right;
-    position: relative;
-    top: 1.5rem; }
-    .site-header .global-nav li {
-      display: inline-block;
-      margin-right: 2rem; }
-      .site-header .global-nav li a {
-        color: white;
-        display: block; }
-        .site-header .global-nav li a:hover {
-          color: #f3f3f3; }
+
+.global-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+  position: relative;
+  top: 1.5rem; }
+  .global-nav li {
+    display: inline-block;
+    margin-right: 2rem; }
+    .global-nav li a {
+      color: white;
+      display: block; }
+      .global-nav li a:hover {
+        color: #f3f3f3; }
 
 /**
  * Site footer
@@ -1380,7 +1375,7 @@ input[type=range] {
 .post-header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: #CDDC39; }
+  border-bottom: solid 1px #CDDC39; }
 
 /**
  * Posts
