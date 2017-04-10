@@ -31,9 +31,16 @@
  * Site footer
  */
  .site-footer{
-     border-top:solid 1px #ccc;
+     text-align: center;
+     font-size: 0.8rem;
      padding-top:2rem;
      padding-bottom:2rem;
+     a {
+       color: #666;
+       &:hover {
+         color: #888;
+       }
+     }
  }
 
 /**

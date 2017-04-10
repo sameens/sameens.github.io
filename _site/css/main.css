@@ -120,7 +120,7 @@ body {
   color: #404040; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
@@ -1365,9 +1365,14 @@ input[type=range] {
  * Site footer
  */
 .site-footer {
-  border-top: solid 1px #ccc;
+  text-align: center;
+  font-size: 0.8rem;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+  .site-footer a {
+    color: #666; }
+    .site-footer a:hover {
+      color: #888; }
 
 /**
  * Page content
@@ -1519,16 +1524,33 @@ input[type=range] {
   .highlight .il {
     color: #099; }
 
-.homepage-list {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .homepage-list li {
+.logo {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.tile-list {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0; }
+  .tile-list li {
+    width: 300px;
+    height: 300px;
     display: inline-block;
-    margin-right: 0.8rem;
-    width: 10rem; }
-    .homepage-list li a {
-      color: #888888; }
+    background-color: #fff;
+    margin-right: 1rem;
+    margin-bottom: 1rem; }
+    .tile-list li a {
+      padding: 0.5rem; }
 
 .mtxl {
   margin-top: 3rem; }
+
+.center {
+  text-align: center; }
+
+.page-content {
+  min-height: 800px; }
+
+.bg-gray-light {
+  background-color: #f3f3f3; }
