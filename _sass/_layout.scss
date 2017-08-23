@@ -33,25 +33,20 @@
       width: 100%;
       padding: 1rem 0;
     }
-    // .global-nav{
-    //   list-style: none;
-    //   padding:0;
-    //   margin:0;
-    //   float:right;
-    //   position:relative;
-    //   top:1.5rem;
-    //   li{
-    //     display:inline-block;
-    //     margin-right:2rem;
-    //     a{
-    //       color:white;
-    //       display:block;
-    //       &:hover {
-    //         color:#f3f3f3;
-    //       }
-    //     }
-    //   }
-    // }
+    .hp-text__wrapper {
+      display: table;
+      overflow: hidden;
+      height: 80vh;
+      .hp-text {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    //TODO: add to colors
+    .bg-blue {
+      background: #003dc2;
+    }
+
 
 /**
  * Site footer

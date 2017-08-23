@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #404040; }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -774,13 +774,6 @@ body {
   color: #404040;
   background-color: white; }
 
-a {
-  color: #2196F3;
-  text-decoration: none; }
-
-a:hover {
-  color: #0074d9; }
-
 pre, code {
   background-color: transparent;
   border-radius: 3px; }
@@ -1363,6 +1356,17 @@ input[type=range] {
   width: 100%;
   padding: 1rem 0; }
 
+.hp-text__wrapper {
+  display: table;
+  overflow: hidden;
+  height: 80vh; }
+  .hp-text__wrapper .hp-text {
+    display: table-cell;
+    vertical-align: middle; }
+
+.bg-blue {
+  background: #003dc2; }
+
 /**
  * Site footer
  */
@@ -1556,3 +1560,12 @@ input[type=range] {
 
 .bg-gray-light {
   background-color: #f3f3f3; }
+
+.small {
+  font-size: 0.7rem; }
+
+.smaller {
+  font-size: 0.5rem; }
+
+.smallest {
+  font-size: 0.3rem; }
