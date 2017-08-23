@@ -114,13 +114,12 @@ td {
   vertical-align: top; }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.5;
   font-size: 100%;
   color: #404040; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
@@ -1344,22 +1343,25 @@ input[type=range] {
   padding-bottom: 1.5rem;
   border-bottom: solid 1px #CDDC39;
   overflow: hidden; }
+  .site-header .site-header__nav {
+    list-style: none;
+    margin: 2rem 0 0 0;
+    padding: 0;
+    text-align: center; }
+    .site-header .site-header__nav li {
+      display: inline-block;
+      margin-right: 3rem;
+      margin-left: 3rem; }
+      .site-header .site-header__nav li a {
+        color: #666; }
+        .site-header .site-header__nav li a:hover {
+          color: #333; }
+      .site-header .site-header__nav li.active a {
+        color: #CDDC39; }
 
-.global-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  float: right;
-  position: relative;
-  top: 1.5rem; }
-  .global-nav li {
-    display: inline-block;
-    margin-right: 2rem; }
-    .global-nav li a {
-      color: white;
-      display: block; }
-      .global-nav li a:hover {
-        color: #f3f3f3; }
+.hp-img {
+  width: 100%;
+  padding: 1rem 0; }
 
 /**
  * Site footer

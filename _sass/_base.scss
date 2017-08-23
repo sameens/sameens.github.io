@@ -124,21 +124,20 @@ th { vertical-align: bottom }
 td { vertical-align: top }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.5;
   font-size: 100%;
   color:#404040;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, sans-serif;
+  // font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
   color:#404040;
 }
-
 
 p {
   font-size: 1.2rem;
