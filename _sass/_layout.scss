@@ -2,50 +2,29 @@
  * Site header
  */
 .site-header{
-    padding-top:1.5rem;
-    padding-bottom:1.5rem;
-    border-bottom: solid 1px #CDDC39;
-    overflow:hidden;
-    .site-header__nav {
-      list-style: none;
-      margin: 2rem 0 0 0;
-      padding: 0;
-      text-align: center;
+    background-color: transparent;
+    position: absolute;
+    padding: 2rem 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    .header-list {
       li {
-        display: inline-block;
-        margin-right: 3rem;
-        margin-left: 3rem;
         a {
-          color: #bb002f;
-          &:hover {
-            color: #333;
-          }
-        }
-        &.active {
-          a {
-            color: #CDDC39;
+          font-size: 1.1rem;
+          font-weight: 500;
+          &.logo {
+            text-transform: uppercase;
+            color: #ef00a3;
+            font-weight: 700;
+            font-size: 1.3rem;
           }
         }
       }
     }
-    }
-    .hp-img {
-      width: 100%;
-      padding: 1rem 0;
-    }
-    .hp-text__wrapper {
-      display: table;
-      overflow: hidden;
-      height: 80vh;
-      .hp-text {
-        display: table-cell;
-        vertical-align: middle;
-      }
-    }
-    //TODO: add to colors
-    .bg-blue {
-      background: #003dc2;
-    }
+  }
+
 
 
 /**

@@ -7,9 +7,11 @@
   background: -webkit-linear-gradient(to left, #d500f9, #2979ff );  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #d500f9, #2979ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
-  a {
-    color: #ffffff;
+
+  .row {
+    overflow: auto;
   }
+
   h1 {
     font-size: 6rem;
     line-height: 1;
@@ -22,12 +24,9 @@
 }
 .pink {
   color: #ef00a3;
-  a {
-    color: #ef00a3;
-    &:hover {
-      color: darken(#ef00a3, 10%);
-    }
-  }
+}
+.blue {
+   color: #0000EE;
 }
 .pink-transparent {
   color: #bb002f;
@@ -40,9 +39,8 @@
   text-transform: uppercase;
 }
 .hp-text-wrapper {
-  position: relative;
   .hp-text {
-    margin: 30% 0 -50% 0;
+    margin: 30% 0 10% 0;
   }
 }
 .horizontal-list {
@@ -50,6 +48,8 @@
   padding: 0;
   li {
     list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
     a {
       text-decoration: none;
     }
