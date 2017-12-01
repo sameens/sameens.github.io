@@ -124,7 +124,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
-  color: #404040; }
+  color: #404040;
+  word-wrap: break-word; }
 
 p {
   font-size: 1rem;
@@ -1551,6 +1552,10 @@ input[type=range] {
 
 .pink {
   color: #ef00a3; }
+  .pink a {
+    color: #ef00a3; }
+    .pink a:hover {
+      color: #bc0080; }
 
 .pink-transparent {
   color: #bb002f;
@@ -1565,14 +1570,15 @@ input[type=range] {
 .hp-text-wrapper {
   position: relative; }
   .hp-text-wrapper .hp-text {
-    position: absolute;
     margin: 30% 0 -50% 0; }
 
-.in-page-nav {
+.horizontal-list {
   margin: 0;
   padding: 0; }
-  .in-page-nav li {
+  .horizontal-list li {
     list-style: none; }
+    .horizontal-list li a {
+      text-decoration: none; }
 
 .mtxl {
   margin-top: 3rem; }

@@ -22,6 +22,12 @@
 }
 .pink {
   color: #ef00a3;
+  a {
+    color: #ef00a3;
+    &:hover {
+      color: darken(#ef00a3, 10%);
+    }
+  }
 }
 .pink-transparent {
   color: #bb002f;
@@ -36,14 +42,16 @@
 .hp-text-wrapper {
   position: relative;
   .hp-text {
-    position: absolute;
     margin: 30% 0 -50% 0;
   }
 }
-.in-page-nav {
+.horizontal-list {
   margin: 0;
   padding: 0;
   li {
     list-style: none;
+    a {
+      text-decoration: none;
+    }
   }
 }
