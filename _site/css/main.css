@@ -120,6 +120,7 @@ body {
   color: #404040; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
@@ -1124,6 +1125,7 @@ input[type=range] {
     font-size: 1.1rem;
     font-weight: 500; }
     .site-header .header-list li a.logo {
+      font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
       color: #ef00a3;
       font-weight: 700;
@@ -1137,10 +1139,6 @@ input[type=range] {
   font-size: 0.8rem;
   padding-top: 2rem;
   padding-bottom: 2rem; }
-  .site-footer a {
-    color: #666; }
-    .site-footer a:hover {
-      color: #888; }
 
 /**
  * Page content

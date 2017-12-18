@@ -15,6 +15,7 @@
           font-size: 1.1rem;
           font-weight: 500;
           &.logo {
+            font-family: 'Montserrat', sans-serif;
             text-transform: uppercase;
             color: #ef00a3;
             font-weight: 700;
@@ -35,12 +36,6 @@
      font-size: 0.8rem;
      padding-top:2rem;
      padding-bottom:2rem;
-     a {
-       color: #666;
-       &:hover {
-         color: #888;
-       }
-     }
  }
 
 /**
