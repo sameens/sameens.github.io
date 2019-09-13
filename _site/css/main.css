@@ -549,7 +549,8 @@ body {
   background-color: white; }
 
 a {
-  color: #0000EE; }
+  color: #0000EE;
+  font-size: 1rem; }
 
 a:hover {
   color: #4f2aa6; }
@@ -1121,15 +1122,18 @@ input[type=range] {
   left: 0;
   right: 0;
   margin: auto; }
-  .site-header .header-list li a {
-    font-size: 1.1rem;
-    font-weight: 500; }
-    .site-header .header-list li a.logo {
-      font-family: 'Montserrat', sans-serif;
-      text-transform: uppercase;
-      color: #ef00a3;
-      font-weight: 700;
-      font-size: 1.3rem; }
+  .site-header .header-list li {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+    .site-header .header-list li a {
+      font-size: 1.1rem;
+      font-weight: 500; }
+      .site-header .header-list li a.logo {
+        display: block;
+        text-transform: uppercase;
+        color: #ef00a3;
+        font-weight: 700;
+        font-size: 1.3rem; }
 
 /**
  * Site footer

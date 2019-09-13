@@ -11,11 +11,13 @@
 
     .header-list {
       li {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
         a {
           font-size: 1.1rem;
           font-weight: 500;
           &.logo {
-            font-family: 'Montserrat', sans-serif;
+            display: block;
             text-transform: uppercase;
             color: #ef00a3;
             font-weight: 700;
