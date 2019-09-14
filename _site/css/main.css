@@ -1342,6 +1342,9 @@ input[type=range] {
     .horizontal-list li a {
       text-decoration: none; }
 
+a.pale-pink {
+  color: #F78BD5; }
+
 .mtxl {
   margin-top: 3rem; }
 
