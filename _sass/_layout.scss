@@ -3,11 +3,14 @@
  */
 .site-header{
     background-color: transparent;
-    position: absolute;
+    position: relative;
     padding: 2rem 0;
     left: 0;
     right: 0;
     margin: auto;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d500f9, #2979ff );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d500f9, #2979ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     .header-list {
       li {
