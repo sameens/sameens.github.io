@@ -131,8 +131,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -181,16 +180,38 @@ blockquote p {
   font-style: italic;
 }
 
-h1, .h1 { font-size: 4rem }
-h2, .h2 { font-size: 1.5rem }
-h3, .h3 { font-size: 1.25rem }
-h4, .h4 { font-size: 1rem }
-h5, .h5 { font-size: .875rem }
-h6, .h6 { font-size: .75rem }
+h1, .h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+h2, .h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h3, .h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+h4, .h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+h5, .h5 {
+  font-size: .875rem;
+  font-weight: 700;
+}
+h6, .h6 {
+  font-size: .75rem;
+  font-weight: 700;
+ }
 
 .list-reset {
   list-style: none;
   padding-left: 0;
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
 }
 
 .inline       { display: inline }
