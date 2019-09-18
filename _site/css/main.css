@@ -114,7 +114,7 @@ td {
   vertical-align: top; }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Maitree', monospace;
   line-height: 1.5;
   font-size: 100%;
   color: #404040; }
@@ -140,7 +140,7 @@ dl, ol, ul {
   margin-bottom: 1rem; }
 
 pre, code, samp {
-  font-family: 'Source Code Pro', Consolas, monospace;
+  font-family: 'Maitree', Consolas, monospace;
   font-size: inherit; }
 
 pre {
@@ -1158,8 +1158,7 @@ input[type=range] {
   font-size: 0.8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #000;
-  margin-top: 2rem; }
+  background-color: #000; }
   .site-footer a {
     color: #ef00a3; }
 
@@ -1325,12 +1324,16 @@ input[type=range] {
   .homepage-gradient .row {
     overflow: auto; }
   .homepage-gradient h1 {
-    font-size: 6rem;
-    line-height: 1; }
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 700; }
   .homepage-gradient p {
     font-size: 1.3rem;
     font-weight: 500;
-    margin-top: 1.2rem; }
+    margin-top: 2.2rem; }
+  @media screen and (min-width: 40em) {
+    .homepage-gradient h1 {
+      font-size: 6rem; } }
 
 .pink {
   color: #ef00a3; }
@@ -1365,9 +1368,12 @@ a.pale-pink {
   color: #F78BD5; }
 
 .mobile-mockup {
-  width: 30%;
-  vertical-align: top;
-  padding-right: 0.7rem; }
+  width: 100%; }
+  @media screen and (min-width: 40em) {
+    .mobile-mockup {
+      width: 30%;
+      vertical-align: top;
+      padding-right: 0.7rem; } }
 
 .mtxl {
   margin-top: 3rem; }

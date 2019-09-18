@@ -13,13 +13,19 @@
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 1;
+    font-weight: 700;
   }
   p {
     font-size: 1.3rem;
     font-weight: 500;
-    margin-top: 1.2rem;
+    margin-top: 2.2rem;
+  }
+  @media screen and (min-width: 40em) {
+    h1 {
+      font-size: 6rem;
+    }
   }
 }
 .pink {
@@ -41,6 +47,7 @@
 .hp-text-wrapper {
   .hp-text {
     margin: 30% 0 10% 0;
+
   }
 }
 .horizontal-list {
@@ -60,7 +67,10 @@ a.pale-pink {
 }
 
 .mobile-mockup {
-  width: 30%;
-  vertical-align: top;
-  padding-right: 0.7rem;
+  width: 100%;
+  @media screen and (min-width: 40em) {
+    width: 30%;
+    vertical-align: top;
+    padding-right: 0.7rem;
+  }
 }
