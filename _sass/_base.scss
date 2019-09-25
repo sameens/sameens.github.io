@@ -181,8 +181,11 @@ blockquote p {
 }
 
 h1, .h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
+  @media screen and (min-width: 40em) {
+    font-size: 4rem;
+  }
 }
 h2, .h2 {
   font-size: 1.5rem;

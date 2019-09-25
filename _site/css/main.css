@@ -162,8 +162,11 @@ blockquote p {
   font-style: italic; }
 
 h1, .h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400; }
+  @media screen and (min-width: 40em) {
+    h1, .h1 {
+      font-size: 4rem; } }
 
 h2, .h2 {
   font-size: 1.5rem;
@@ -1319,8 +1322,7 @@ input[type=range] {
   background: -webkit-linear-gradient(to left, #d500f9, #2979ff);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #d500f9, #2979ff);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 100vh; }
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .homepage-gradient .row {
     overflow: auto; }
   .homepage-gradient h1 {
@@ -1368,12 +1370,18 @@ a.pale-pink {
   color: #F78BD5; }
 
 .mobile-mockup {
-  width: 100%; }
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2rem; }
   @media screen and (min-width: 40em) {
     .mobile-mockup {
       width: 30%;
       vertical-align: top;
-      padding-right: 0.7rem; } }
+      display: inline-block;
+      margin-left: 0.7rem;
+      margin-right: 0.7rem; } }
 
 .mtxl {
   margin-top: 3rem; }
