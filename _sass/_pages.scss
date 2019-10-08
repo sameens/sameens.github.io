@@ -6,13 +6,14 @@
   background: #ff00cc;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #d500f9, #2979ff );  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #d500f9, #2979ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
 
   .row {
     overflow: auto;
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1;
     font-weight: 700;
   }
@@ -45,7 +46,7 @@
 }
 .hp-text-wrapper {
   .hp-text {
-    margin: 30% 0 10% 0;
+    padding: 5rem 0;
 
   }
 }
