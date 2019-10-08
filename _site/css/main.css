@@ -375,6 +375,66 @@ video {
   margin-left: auto;
   margin-right: auto; }
 
+.p0 {
+  padding: 0; }
+
+.pt0 {
+  padding-top: 0; }
+
+.pr0 {
+  padding-right: 0; }
+
+.pb0 {
+  padding-bottom: 0; }
+
+.pl0 {
+  padding-left: 0; }
+
+.p1 {
+  padding: 0.5rem; }
+
+.pt1 {
+  padding-top: 0.5rem; }
+
+.pr1 {
+  padding-right: 0.5rem; }
+
+.pb1 {
+  padding-bottom: 0.5rem; }
+
+.pl1 {
+  padding-left: 0.5rem; }
+
+.p2 {
+  padding: 1rem; }
+
+.pt2 {
+  padding-top: 1rem; }
+
+.pr2 {
+  padding-right: 1rem; }
+
+.pb2 {
+  padding-bottom: 1rem; }
+
+.pl2 {
+  padding-left: 1rem; }
+
+.p3 {
+  padding: 2rem; }
+
+.pt3 {
+  padding-top: 2rem; }
+
+.pr3 {
+  padding-right: 2rem; }
+
+.pb3 {
+  padding-bottom: 2rem; }
+
+.pl3 {
+  padding-left: 2rem; }
+
 @media (min-width: 40em) {
   .sm-show {
     display: block !important; } }
@@ -1374,7 +1434,8 @@ a.pale-pink {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
   @media screen and (min-width: 40em) {
     .mobile-mockup {
       width: 30%;
@@ -1382,6 +1443,11 @@ a.pale-pink {
       display: inline-block;
       margin-left: 0.7rem;
       margin-right: 0.7rem; } }
+
+.img-wrapper {
+  background-color: #f4f4f4;
+  margin: 1rem 0;
+  padding: 0.5rem; }
 
 .mtxl {
   margin-top: 3rem; }

@@ -71,6 +71,7 @@ a.pale-pink {
   margin-right: auto;
   display: block;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   @media screen and (min-width: 40em) {
     width: 30%;
     vertical-align: top;
@@ -78,4 +79,9 @@ a.pale-pink {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
   }
+}
+.img-wrapper {
+  background-color: #f4f4f4;
+  margin: 1rem 0;
+  padding: 0.5rem;
 }
